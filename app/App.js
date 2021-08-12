@@ -53,7 +53,7 @@ class App extends Component {
         let loggedIn = this.state.accessToken === null ? false : true;
         return (
         <View style = { styles.container }>
-            <Text style = { styles.header }> Auth0Sample - Login </Text>
+            <Text style = { styles.header }> FreedomBack - Login </Text>
             <Text>
                 You are{ loggedIn ? ' ' : ' not ' }logged in . </Text>
                 <Button onPress = { loggedIn ? this._onLogout : this._onLogin }
