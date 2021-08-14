@@ -9,6 +9,7 @@
     "test": "jest"
   },
   "dependencies": {
+    "bad-words": "^3.0.4",
     "firebase": "^8.9.1",
     "react": "17.0.1",
     "react-firebase-hooks": "^3.0.4",
