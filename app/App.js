@@ -78,3 +78,35 @@ const styles = StyleSheet.create({
 });
 
 export default App;
+
+import React from 'react';
+import './app.css';
+
+import firebase from 'firebase/app';
+import 'firebase/store';
+import 'firebase/auth';
+
+import {useAuthState } from 'react-firebase-hooks/auth';
+import { useCollectionData } from 'react-firebase-hooks/firestore';
+
+firebase.initializeApp({apiKey: "AIzaSyAGxv2y5jNkzi3sgTQjaDEmjxu7ZvGvH4I",
+authDomain: "freedom-bfee0.firebaseapp.com",
+projectId: "freedom-bfee0",
+storageBucket: "freedom-bfee0.appspot.com",
+messagingSenderId: "585025658924",
+appId: "1:585025658924:web:bc3cacfcb55dd923187189",
+measurementId: "G-NEPS3SWVE3"})
+
+const auth = firebase.auth();
+const firestore = firebase.firestore();
+
+function App() {
+    return (
+        <div className="App">
+            <header className="App-header"Alert>
+
+                </header></div>);
+}
+
+export default App;
+
